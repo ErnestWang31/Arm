@@ -1,0 +1,2 @@
+/Users/ernest/Desktop/2 Projects/2.1 Current Projects/2.1.4 Mini Arm/arm/3 Firmware/STM32F1-Driver-FW/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ernest/Desktop/2 Projects/2.1 Current Projects/2.1.4 Mini Arm/arm/3 Firmware/STM32F1-Driver-FW/cmake-build-debug/CMakeFiles/rebuild_cache.dir

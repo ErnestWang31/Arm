@@ -1,0 +1,133 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /opt/homebrew/bin/arm-none-eabi-gcc 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-isystem;/Users/ernest/miniconda3/include
+Id flags:  
+
+The output was:
+1
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: cannot find -lssp_nonshared: No such file or directory
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: cannot find -lssp: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/ernest/miniconda3/include
+Id flags:  
+
+The output was:
+1
+arm-none-eabi-g++: error: unrecognized command-line option '-stdlib=libc++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/ernest/miniconda3/include
+Id flags: -c 
+
+The output was:
+1
+arm-none-eabi-g++: error: unrecognized command-line option '-stdlib=libc++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/ernest/miniconda3/include
+Id flags: --c++ 
+
+The output was:
+1
+arm-none-eabi-g++: error: unrecognized command-line option '-stdlib=libc++'
+arm-none-eabi-g++: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/ernest/miniconda3/include
+Id flags: --ec++ 
+
+The output was:
+1
+arm-none-eabi-g++: error: unrecognized command-line option '-stdlib=libc++'
+arm-none-eabi-g++: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/ernest/miniconda3/include
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+arm-none-eabi-g++: error: unrecognized command-line option '-stdlib=libc++'
+arm-none-eabi-g++: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/ernest/miniconda3/include
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+arm-none-eabi-g++: error: unrecognized command-line option '-stdlib=libc++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x28): undefined reference to `_exit'
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+closer.c:(.text._close_r+0x18): undefined reference to `_close'
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+readr.c:(.text._read_r+0x24): undefined reference to `_read'
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+writer.c:(.text._write_r+0x24): undefined reference to `_write'
+collect2: error: ld returned 1 exit status
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ernest/miniconda3/bin/make -f Makefile cmTC_ed26c/fast && /Users/ernest/miniconda3/bin/make  -f CMakeFiles/cmTC_ed26c.dir/build.make CMakeFiles/cmTC_ed26c.dir/build
+make[1]: Entering directory '/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed26c.dir/CMakeCXXCompilerABI.cpp.obj
+/opt/homebrew/bin/arm-none-eabi-g++   -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ernest/miniconda3/include  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ed26c.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-g++
+[01m[Karm-none-eabi-g++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-stdlib=libc++[m[K'
+Target: arm-none-eabi
+Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+make[1]: *** [CMakeFiles/cmTC_ed26c.dir/build.make:78: CMakeFiles/cmTC_ed26c.dir/CMakeCXXCompilerABI.cpp.obj] Error 1
+make[1]: Leaving directory '/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_ed26c/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/ernest/miniconda3/bin/make -f Makefile cmTC_94bcc/fast && /Users/ernest/miniconda3/bin/make  -f CMakeFiles/cmTC_94bcc.dir/build.make CMakeFiles/cmTC_94bcc.dir/build
+make[1]: Entering directory '/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94bcc.dir/testCXXCompiler.cxx.obj
+/opt/homebrew/bin/arm-none-eabi-g++   -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ernest/miniconda3/include  -fdiagnostics-color=always -o CMakeFiles/cmTC_94bcc.dir/testCXXCompiler.cxx.obj -c /Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+[01m[Karm-none-eabi-g++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-stdlib=libc++[m[K'
+make[1]: *** [CMakeFiles/cmTC_94bcc.dir/build.make:78: CMakeFiles/cmTC_94bcc.dir/testCXXCompiler.cxx.obj] Error 1
+make[1]: Leaving directory '/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_94bcc/fast] Error 2
+
+
+

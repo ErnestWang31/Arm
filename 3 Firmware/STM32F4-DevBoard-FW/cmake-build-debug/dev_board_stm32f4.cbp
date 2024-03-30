@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dev_board_stm32f4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_board_stm32f4.elf">
+				<Option output="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/dev_board_stm32f4.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F405xx"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/App"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/Target"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 dev_board_stm32f4.elf"/>
+					<CompileFile command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dev_board_stm32f4.elf/fast">
+				<Option output="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/dev_board_stm32f4.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F405xx"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/App"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/Target"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 dev_board_stm32f4.elf/fast"/>
+					<CompileFile command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/ernest/miniconda3/bin/make -j10 -f &quot;/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/.DS_Store">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/FreeRTOSConfig.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/adc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/can.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/dma.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/gpio.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/i2c.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/main.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/spi.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/stm32f4xx_it.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/tim.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Inc/usart.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/adc.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/can.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/dma.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/freertos.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/gpio.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/i2c.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/main.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/spi.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/stm32f4xx_it.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/syscalls.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/sysmem.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/system_stm32f4xx.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/tim.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Src/usart.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Core/Startup/startup_stm32f405rgtx.s">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/.DS_Store">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/.DS_Store">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/cachel1_armv7.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm55.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_cm85.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/core_starmc1.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/pac_armv81.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/pmu_armv8.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/CMSIS/LICENSE.txt">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/.DS_Store">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/.DS_Store">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/STM32F405RGTX_FLASH.ld">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/.DS_Store">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/App/usb_device.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/App/usb_device.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/App/usbd_desc.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/App/usbd_desc.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="dev_board_stm32f4.elf"/>
+		</Unit>
+		<Unit filename="/Users/ernest/STM32CubeIDE/workspace_1.15.0/new/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
