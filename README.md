@@ -1,4 +1,5 @@
 # ARM Robotic Arm Project
+<img width="172" alt="image" src="https://github.com/user-attachments/assets/ff553b2d-5f99-474e-9e4d-f7b67d4a829a">
 
 ## Introduction
 This project is dedicated to the development of a robotic arm using STM32 microcontrollers. It includes mechanical models, the necessary hardware setup, and the firmware to control the arm. The goal is to create a reliable and functional robotic arm that can be used for educational and prototyping purposes.
